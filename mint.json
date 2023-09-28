@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "MailPigeon Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -21,12 +21,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:hi@mailpigeon.app"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://dashboard.mailpigeon.app"
   },
   "tabs": [
     {
@@ -46,9 +46,9 @@
       "url": "https://mintlify.com/community"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Knowledge Base",
+      "icon": "books",
+      "url": "knowledge-base"
     }
   ],
   "navigation": [
@@ -57,26 +57,40 @@
       "pages": ["introduction", "quickstart", "development"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "group": "Overview",
+      "pages": ["overview/contributing"]
     },
     {
       "group": "API Documentation",
       "pages": ["api-reference/authentication"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Endpoints",
+      "pages": ["api-reference/endpoint/submit"]
+    },
+    {
+      "group": "Knowledge Base",
+      "pages": ["knowledge-base/introduction"]
+    },
+
+    {
+      "group": "Quickstart",
+      "pages": ["quick-start/nodejs", "quick-start/sdk/nodejs"]
+    },
+    {
+      "group": "Learn",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "learn",
+        {
+          "group": "Projects",
+          "pages": ["introduction"]
+        }
       ]
     }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
+    "github": "https://github.com/mailpigeonapp",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
 }
