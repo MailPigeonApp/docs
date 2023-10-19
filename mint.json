@@ -7,16 +7,16 @@
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#9563FF",
+    "primary": "#5451D4",
     "light": "#AE87FF",
     "dark": "#0D001D",
     "background": {
-      "dark": "#090014"
-    },
-    "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
+      "dark": "#000000"
     }
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
   },
   "topbarLinks": [
     {
@@ -25,8 +25,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mailpigeon.app"
+    "name": "App",
+    "url": "https://mailpigeon-front.vercel.app/"
   },
   "tabs": [
     {
@@ -37,13 +37,13 @@
   "anchors": [
     {
       "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "icon": "book-open",
+      "url": "introduction"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "discord",
+      "url": "https://discord.gg/7JqfvbJ4"
     },
     {
       "name": "Knowledge Base",
@@ -53,12 +53,17 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "Overview",
+      "pages": [
+        "introduction",
+        "overview/contributing",
+        "overview/changelog",
+        "overview/roadmap"
+      ]
     },
     {
-      "group": "Overview",
-      "pages": ["overview/contributing"]
+      "group": "Getting Started",
+      "pages": ["quickstart"]
     },
     {
       "group": "API Documentation",
@@ -70,22 +75,17 @@
     },
     {
       "group": "Knowledge Base",
-      "pages": ["knowledge-base/introduction"]
+      "pages": [
+        {
+          "group": "Features",
+          "pages": ["knowledge-base/http", "knowledge-base/exporting-csv"]
+        }
+      ]
     },
 
     {
-      "group": "Quickstart",
-      "pages": ["quick-start/nodejs", "quick-start/sdk/nodejs"]
-    },
-    {
-      "group": "Learn",
-      "pages": [
-        "learn",
-        {
-          "group": "Projects",
-          "pages": ["introduction"]
-        }
-      ]
+      "group": "SDK Reference",
+      "pages": ["sdk-reference/nodejs"]
     }
   ],
   "footerSocials": {

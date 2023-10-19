@@ -1,0 +1,36 @@
+---
+title: "HTTP Requests"
+description: "Collecting submissions via HTTP requests"
+icon: "wifi"
+---
+
+## Collecting submissions via HTTP requests
+
+You can collect submissions from your forms via HTTP requests. This is useful if you want to collect submissions from your backend or if you want to collect submissions from a static site
+and is not tied to a specific framework.
+
+## Example Request
+
+Below is an example request to the API. You can find your API token on the dashboard. You can also find some sample code to get you started. All it takes is a simple http `POST` request to the endpoint. Please make reference to the [API documentation](/api-reference/endpoint/submit) for more information.
+
+```js
+const data = {
+  name: "John Doe",
+  email: "name@example.com",
+};
+
+const headers = {
+  "Content-Type": "application/json",
+  Bearer: "your-api-token",
+};
+
+fetch("https://api.mailpigeon.xyz/submit/your-project-prefix", {
+  method: "POST",
+  headers: headers,
+  body: JSON.stringify(data),
+});
+```
+
+```js
+
+```
