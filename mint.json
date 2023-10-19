@@ -15,8 +15,7 @@
     }
   },
   "modeToggle": {
-    "default": "dark",
-    "isHidden": true
+    "default": "dark"
   },
   "topbarLinks": [
     {
@@ -89,8 +88,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
+    "twitter": "https://twitter.com/mailpigeonapp",
     "github": "https://github.com/mailpigeonapp",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "producthunt": "https://www.producthunt.com/@sofua"
   }
 }
