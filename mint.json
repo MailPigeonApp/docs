@@ -87,6 +87,11 @@
       "pages": ["sdk-reference/nodejs"]
     }
   ],
+  "classes": {
+    "anchors": "group-hover:bg-gradient-to-tr from-primary to-primary-dark dark:from-[#61DAFB] dark:to-[#06BCEE]",
+    "activeAnchors": "bg-gradient-to-tr"
+  },
+  "backgroundImage": "/images/background.svg",
   "footerSocials": {
     "twitter": "https://twitter.com/mailpigeonapp",
     "github": "https://github.com/mailpigeonapp",
