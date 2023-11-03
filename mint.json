@@ -24,7 +24,7 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "App",
+    "name": "Try out Demo",
     "url": "https://mailpigeon-front.vercel.app/"
   },
   "tabs": [
